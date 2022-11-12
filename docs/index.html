@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="./assets/logovacu_sf.png" type="image/x-icon">
+    <title>VACUNACION Y SALUD&REG;</title>
+</head>
+
+<body>
+
+ <!--Estructura de la barra de navegacion superior-->
+  <header class="header">
+    <div class="logo">
+        <img src="./assets/logovacu_sf.png" alt="Logo de la marca">
+    </div>
+    <nav>
+       <ul class="nav-links">
+          <li><a href="#">Database</a></li>
+          <li><a href="#">Education</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Regulation</a></li>
+       </ul>            
+    </nav>
+    <a class="btn" href="#"><button>Hoax Buster</button></a>
+
+    <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
+
+    <div id="mobile-menu" class="overlay">
+        <a onclick="closeNav()" href="" class="close">&times;</a>
+        <div class="overlay-content">
+            <a href="#">Database</a>
+            <a href="#">Education</a>
+            <a href="#">News</a>
+            <a href="#">Regulation</a>
+            <a href="#">Hoax Buster</a>
+        </div>
+    </div>
+
+  </header>
+
+  <main>
+    <!--estructura de la primera seccion-->
+    <section1 id="landing1">
+      <article>
+        <h2>Fight Virus<br>With Vaccines</h2>
+        <p>Let´s stop this pandemic by killing the virus<br>with a vaccine,don't let yourself and your<br>family get infected.</p><br>
+        <conteiner class="contenedor">
+          <elemen><a href="#">Best Protection</a></elemen>
+          <elemen><a href="#">Selected Vaccines</a></elemen>
+        </conteiner>
+      </article>
+      
+    </section1>
+
+    <!--Estructura segunda seccion-->
+    <section2 id="landing2">
+      <article>
+        <h2>¿Why should I vaccine?</h2>
+        <p>In order to avoid any doubts about getting the COVID-19<br>
+          vaccine, identify the following 4 benefits of COVID-19<br>
+          vaccination:
+        </p>
+      </article>
+      <!--seccion de tarjetas-->
+      <div class="cards">
+          <div class="card">
+              <img src="./assets/medic.png" alt="">
+              <div class="contenido-texto-card">
+                  <h4>Forming antibodies</h4>
+                  <p>COVID-19 vaccine proven to<br>help shape antibody<br>response for immune system.</p>
+              </div>
+          </div>
+          <div class="card">
+              <img src="./assets/estadic.png" alt="">
+              <div class="contenido-texto-card">
+                  <h4>Minimize the spread of viruses</h4>
+                  <p>vaccine has been proven<br>effective to prevent someone<br>from getting infected with<br>Coronavirus.</p>
+              </div>
+          </div>
+          <div class="card">
+            <img src="./assets/estadic.png" alt="">
+            <div class="contenido-texto-card">
+                <h4>Minimize the spread of viruses</h4>
+                <p>vaccine has been proven<br>effective to prevent someone<br>from getting infected with<br>Coronavirus.</p>
+            </div>
+        </div>
+      </div>
+    </section2>
+
+    <!--Estructura tercera seccion-->
+    <section3 id="landing3">
+      <div class="titulo-landing3">
+        <h1>Preparations Before Vaccine</h1>
+        <p>the succes of vaccines is strongly influenced by the<br>strength of the body´s immune system. Therefore, there are<br>several things that can be tried to make the COVID-19<br>vaccine work:</p>
+      </div>
+      <div class="listas">
+        <ul><span></span>Avoid alcoholic beverages</ul>
+        <ul><span></span>Avoid stress<p>
+          Stress has a profound effect on immune work.<br>Moreover, prolonged stress can increase cortisol<br>production and oxidative stress in the body.
+        </p></ul>
+        <ul><span></span> healthy food</ul>
+        <ul><span></span> enough sleep</ul>
+        <ul><span></span> or physical activity</ul>
+      </div>
+    </section3>
+
+    <!--Estructura cuarta seccion-->
+    <section4 id="landing4">
+      <div class="item">
+        <h1>Emergency Contact</h1>
+        <p>Contact one of the contacts below if you family feel<br>unwell and have similar symptoms such as COVID-19, make<br>sure you also take care of yourself before reporting to us: </p>
+      </div>
+      <!--item1 tarjetas-->
+      <div class="item1">
+        <element class="card">
+          <h3>Call</h3>
+          <p>0212314514</p>
+          <button>Call Now</button>
+        </element>
+
+        <element2 class="card">
+          <h3>Chat</h3>
+          <p>0212314514</p>
+          <button>Chat Now</button>
+        </element2>
+
+        <element3 class="card">
+          <h3>Video call</h3>
+          <p>0212314514</p>
+          <button>Video call Now</button>
+        </element3>
+
+        <element4 class="card">
+          <h3>Message</h3>
+          <p>0212314514</p>
+          <button>Message Now</button>
+        </element4>
+        
+      </div>
+
+    </section4>
+  </main>
+
+  <!--Estructura del footer-->
+  <footer>
+    <div class="contenedor-footer">
+        <div class="content-foo">
+            <h4>Vaccination</h4>
+            <p>Our goal is to help the<br>world free from the angoing pandemic</p>
+        </div>
+        <div class="content-foo">
+            <h4>About</h4>
+            <p>About Us<br>Features<br>News & Blog</p>
+        </div>
+        <div class="content-foo">
+            <h4>Company</h4>
+            <p>How We Work?<br>Capital<br>Security</p>
+        </div>
+        <div class="content-foo">
+          <h4>Support</h4>
+          <p>FAQs<br>Support Center<br>Contact Us</p>
+      </div>
+    </div>
+    <h2 class="titulo-final">&copy; Antonio Garrido | Launch X Innovaccion Virtual</h2>
+</footer>
+
+
+ <script type="text/javascript" src="./js/nav.js"></script>
+</body>
+</html>
